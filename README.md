@@ -48,13 +48,13 @@ Here's how the project folder structure looks like:
 
 3. **Application guideline**
     1. **Create Category**
-        - This is for creating a new category.
         - Select option 1 (Create Category) i.e., type 1 when prompted then press enter.
+        - This is for creating a new category.
         - You will then be prompted to enter a name of the category e.g., Resistors
         - The new category will now be stored in the database
     2. **Create Product**
-        - This is for creating a new product in a specific category based on the category's ID.
         - Select option 2 (Create Product) i.e., type 2 when prompted then press enter.
+        - This is for creating a new product in a specific category based on the category's ID.
         - You will be prompted to enter the product details (name, price, quantity, category ID).
     3. **Show Categories**
         - Select option 3 (Show Categories) i.e., type 3 when prompted then press enter.
