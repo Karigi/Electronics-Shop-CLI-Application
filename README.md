@@ -30,7 +30,8 @@ Here's how the project folder structure looks like:
 
 2. **Run the CLI**
     - Run the following command to invoke the CLI interface:
-        **python cli.py**
+        ```bash
+        python cli.py
     - This will launch a menu showing
         1. **Create Category** #Create a new category
         2. **Create Product** #Create a new product in a specific category
@@ -41,7 +42,7 @@ Here's how the project folder structure looks like:
         7. **Find Product by Name** #Displays the product with the specified name
         8. **Delete Category** #Delete a category based on its ID
         9. **Delete Product** #Delete a category based on its ID
-        0. **Exit** #Exit the application
+        10. **Exit** #Exit the application
     - A detailed explanation of how to navigate through the menu and interact with the application is given below.
 
 3. **Application guideline**
@@ -85,7 +86,7 @@ Here's how the project folder structure looks like:
         - You will be prompted to enter the product ID.
         - You can see that the deleted product is no longer in the database.
         - If the product does not exist you'll see a message **Product with ID 'PRODUCT_ID' not found**
-    0. **Exiting the application**
+    10. **Exiting the application**
         - To exit the application, select option 0 (Exit).
 
 
