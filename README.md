@@ -14,14 +14,13 @@ This is a python based CLI application for managing an electronics shop's invent
 
 ## Project Structure
 Here's how the project folder structure looks like:
-    ```
-    electronics_shop_cli/
-    |--cli.py
-    |--database.py
-    |--electronics_components_shop.db
-    |--models.py
-    |--Pipfile
-    |__README.md
+electronics_shop_cli/
+|-- cli.py
+|-- database.py
+|-- electronics_components_shop.db
+|-- models.py
+|-- Pipfile
+|__ README.md
 
 ## Running the Project
 1. **Activate the Virtual Environment:**
