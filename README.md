@@ -20,7 +20,7 @@ Here's how the project folder structure looks like:
 |-- electronics_components_shop.db
 |-- models.py
 |-- Pipfile
-|__ README.md```
+|__ README.md
 
 ## Running the Project
 1. **Activate the Virtual Environment:**
