@@ -21,6 +21,7 @@ Here's how the project folder structure looks like:
 |-- models.py
 |-- Pipfile
 |__ README.md
+```
 
 ## Running the Project
 1. **Activate the Virtual Environment:**
