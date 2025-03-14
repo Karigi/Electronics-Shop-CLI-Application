@@ -34,16 +34,16 @@ Here's how the project folder structure looks like:
         python cli.py
         ```
     - This will launch a menu showing
-        1. 1 **Create Category** #Create a new category
-        2. 2 **Create Product** #Create a new product in a specific category
-        3. 3 **Show Categories** #Show a list of all categories
-        4. 4 **Show Products** #Show a list of all products
-        5. 5 **Show Products in Category** #Show a list of products in a category based on category ID
-        6. 6 **Find Category by Name** #Displays the category with the specified name
-        7. 7 **Find Product by Name** #Displays the product with the specified name
-        8. 8 **Delete Category** #Delete a category based on its ID
-        9. 9 **Delete Product** #Delete a category based on its ID
-        10. 0 **Exit** #Exit the application
+        1. **Create Category** #Create a new category
+        2. **Create Product** #Create a new product in a specific category
+        3. **Show Categories** #Show a list of all categories
+        4. **Show Products** #Show a list of all products
+        5. **Show Products in Category** #Show a list of products in a category based on category ID
+        6. **Find Category by Name** #Displays the category with the specified name
+        7. **Find Product by Name** #Displays the product with the specified name
+        8. **Delete Category** #Delete a category based on its ID
+        9. **Delete Product** #Delete a category based on its ID
+        10. **Exit** #Exit the application
     - A detailed explanation of how to navigate through the menu and interact with the application is given below.
 
 3. **Application guideline**
