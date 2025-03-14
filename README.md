@@ -23,6 +23,22 @@ Here's how the project folder structure looks like:
 |__ README.md
 ```
 
+## Summary of what each file does.
+1. **models.py**
+  - Defines the data models (tables) for the application using SQLAlchemy, which is the ORM used to interact with the database. 
+  - It defines the database schema with two tables: Category and Product. 
+  - It establishes the relationship between the Category and product.
+2. **database.py**
+   - Handles the connection to the SQLite database, creates the necessary tables, and sets up a session for database transactions. 
+   - It uses SQLAlchemy's create_engine to create a connection to an SQLite database (stored in electronics_components_shop.db).
+   - It defines the create_tables() function to create the tables (categories and products) in the database when the application is first run.
+3. **cli.py**
+    - Contains the command-line interface logic using Click. This file defines all the commands (like creating, deleting, showing categories/products) and presents the user with a menu to interact with the application. 
+    - It uses the @click.command() decorator to define actions like creating categories, creating products, showing categories/products, deleting categories/products, etc. 
+    - It displays a menu of options and allows the user to select actions. 
+    - It runs in a loop, letting the user interact with the database through the command-line interface. 
+    - It registers each command with the cli() group so that they can be executed from the terminal.
+
 ## Running the Project
 1. **Activate the Virtual Environment:**
     ```bash
