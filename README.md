@@ -38,6 +38,8 @@ Here's how the project folder structure looks like:
     - It displays a menu of options and allows the user to select actions. 
     - It runs in a loop, letting the user interact with the database through the command-line interface. 
     - It registers each command with the cli() group so that they can be executed from the terminal.
+4. **electrinics_components_shop.db**
+    - This is the SQLite database file where the actual data is stored. It holds the tables and their records that you interact with through the CLI.
 
 ## Running the Project
 1. **Activate the Virtual Environment:**
